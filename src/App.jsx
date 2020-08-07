@@ -17,7 +17,7 @@ export default function App(props) {
          <h1>Fundamnetos react</h1>
 
             <div className="Cards">
-                <Card titulo="Aleatorio" color="#000">
+                <Card titulo="Aleatorio" color="#0F0">
                     <Aleatorio min={1} max={60} />
                 </Card>
 

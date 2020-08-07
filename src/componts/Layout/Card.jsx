@@ -5,8 +5,8 @@ import React from 'react'
 export default function Card(props){
 
     const cardStyle = {
-        backgroundColor: props.color || '#F00',
-        borderColor: props.color || '#F00',
+        backgroundColor: props.color || '#0F0',
+        borderColor: props.color || '#0F0',
     }
   
   
