@@ -17,26 +17,25 @@ export default function App(props) {
          <h1>Fundamnetos react</h1>
 
             <div className="Cards">
-                <Card titulo="Aleatorio" >
+                <Card titulo="Aleatorio" color="#000">
                     <Aleatorio min={1} max={60} />
                 </Card>
 
-
-                <Card titulo="Fragmento">
+                <Card titulo="Fragmento" color="#ff5d85">
                     <Fragmento />
                 </Card>
 
-
-                <Card titulo="Com Parametro">
+                <Card titulo="Com Parametro" color="#ffbb00">
                     <ComParametro
                         titulo="Situaçao do aluno"
                         aluno="Pedro"
                         nota={9.3} />
                 </Card>
 
-                <Card titulo="Primeiro">
+                <Card titulo="Primeiro" color="#ff0000">
                     <Primeiro></Primeiro>
                 </Card>
+                        
             </div>
 
 

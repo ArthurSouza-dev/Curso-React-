@@ -1,3 +1,4 @@
 .App .Cards{
     display: flex;
+    flex-wrap: wrap;
 }
