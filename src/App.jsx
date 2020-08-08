@@ -22,8 +22,11 @@ export default function App(props) {
                     <Familia sobrenome="Ferreira"/>
                 </Card>
 
-                <Card titulo="Exercisio #4 -Aleatorio " color="#0F0">
-                    <Aleatorio min={1} max={60} />
+                <Card titulo="Exercisio #4 -Aleatorio " color="#00ffff">
+                    <h2>Numero Aleatorio</h2>
+                   <Aleatorio min={1} max={11} />
+                    <Aleatorio min={1} max={11} />
+                    <Aleatorio min={1} max={11} />
                 </Card>
 
                 <Card titulo="Exercisio #3 -Fragmento" color="#ff5d85">

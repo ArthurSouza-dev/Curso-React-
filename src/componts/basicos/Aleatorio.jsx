@@ -7,7 +7,7 @@ export default function Aleatorio(props){
 
     return(
         <div>
-            <h2>Valor Aleatorio</h2>
+            
             
             <p>
                  <strong>valor Escolhido: </strong> {aleatorio}
