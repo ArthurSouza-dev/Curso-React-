@@ -8,6 +8,9 @@ import ComParametro from './componts/basicos/ComParamentro'
 import Fragmento from './componts/basicos/Fragmento'
 import Aleatorio from './componts/basicos/Aleatorio'
 import Card from './componts/Layout/Card'
+import ListaAluno from './componts/repeticao/ListaAlunos'
+import TabelaProduto from './componts/repeticao/TabelaProdutos'
+
 
 export default () => {
     return (
@@ -19,9 +22,21 @@ export default () => {
 
             <div className="Cards">
                 
-                <Card titulo=" Exercisio #5 - Componente com Filhos " color="#0F0">
+              <Card titulo=" Exercisio #5 - Tabela produtos" color="#283cae">
+                   
+                    <TabelaProduto></TabelaProduto>   
+                
+               </Card>
                
-                <Familia sobrenome="Silva">
+                
+                 <Card titulo=" Exercisio #6 - Lista " color="#055">
+                   
+                    <ListaAluno></ListaAluno>
+                </Card>
+                
+                
+                <Card titulo=" Exercisio #5 - Componente com Filhos " color="#0F0">
+                    <Familia sobrenome="Silva">
                     <FamiliaMembro nome="Pedro" />
                     <FamiliaMembro nome="Ana"  />
                     <FamiliaMembro nome="Gustavi" />                      
